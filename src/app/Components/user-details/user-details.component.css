@@ -1,0 +1,31 @@
+.custom-style {
+    background-color: #9a24a5; 
+    color: #f7c476; 
+    border-top-left-radius: .9rem;
+    border-bottom-left-radius: .5rem;
+
+}
+
+.custom-style h5 {
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  .custom-style p {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+  }
+  
+  .custom-style .text-muted {
+    font-family: Arial, sans-serif; 
+    font-style: italic; 
+    font-size: 14px; 
+  }
+  
+  .custom-style .text-reset {
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    font-size: 14px; 
+  }
+  

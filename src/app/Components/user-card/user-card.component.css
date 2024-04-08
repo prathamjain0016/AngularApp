@@ -1,0 +1,125 @@
+body {
+    margin-top: 20px;
+    background: #eee;
+}
+
+.avatar.xl {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.09375rem;
+}
+
+.avatar img {
+    max-width: 100%;
+    display: block;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.bg-opacity-10 {
+    --bs-bg-opacity: 0.1;
+}
+
+.bg-gray {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-gray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.mt-n5 {
+    margin-top: -1.5rem !important;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+
+
+.card.mb-4 {
+    border-radius: 20px;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px; 
+  }
+  
+ 
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-group-item {
+    border: none; 
+  }
+  .text-muted {
+    font-style: italic; 
+  }
+  
+  .text-reset {
+    font-weight: bold;
+  }
+  
+
+  .btn-custom {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    padding-top: 10%;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding-top: 30%;
+}
+
+.btn-custom:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .btn-custom {
+      padding: 0.25em 0.75em;
+    }
+  }

@@ -1,0 +1,33 @@
+<div class="card mb-4">
+
+  <div class="card overflow-hidden text-center">
+    
+    <div class="card-body p-0">
+      <img src="../../../assets/background-image.jpg" class="card-img-top img-fluid" alt="">
+      <a class="avatar xl rounded-circle bg-gray bg-opacity-10 p-1 position-relative mt-n5 d-block mx-auto">
+        <img src="../../../assets/avatar.jpg" class="avatar-img img-fluid rounded-circle" alt="">
+      </a>
+      <h5 class="mb-0 pt-3">
+        <p class="text-reset">{{ user.name }}</p>
+      </h5>
+      <span class="text-muted small d-block mb-3">{{ user.company.name }}</span> 
+      <div class="row mx-0 border-top border-bottom">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item px-3 d-flex align-items-center justify-content-between">
+            <span class="text-muted small">Email</span>
+            <strong>{{ user.email }}</strong>
+          </li>
+          <li class="list-group-item px-3 d-flex align-items-center justify-content-between">
+            <span class="text-muted small">Address</span>
+            <strong>{{ user.address.street }}, {{ user.address.city }}</strong>
+          </li>
+          <li class="list-group-item px-3 d-flex align-items-center justify-content-center">
+            <div class="text-reset mt-3"> 
+              <a routerLink="/user-details/{{ user.id }}" class="btn btn-custom">Learn More</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
